@@ -64,3 +64,11 @@ You can open issues for bugs you've found or features you think are missing. You
 - The error page image courtesy of [Dopatwo](https://www.youtube.com/user/dopatwo)
 
 ![Mastodon error image](https://mastodon.social/oops.png)
+
+## For Julika
+
+We customized design part for julika.
+- customize image and css.
+- customize confirmation_instructions for user mail.
+- localize for julika.
+
