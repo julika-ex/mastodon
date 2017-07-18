@@ -7,6 +7,8 @@ code {
   max-width: 400px;
   padding: 20px;
   margin: 0 auto;
+  background: $color9;
+  border-radius: 4px;
 }
 
 .simple_form {
@@ -16,7 +18,7 @@ code {
 
   span.hint {
     display: block;
-    color: $color3;
+    color: $color10;
     font-size: 12px;
     margin-top: 4px;
   }
@@ -49,7 +51,7 @@ code {
     label {
       font-family: inherit;
       font-size: 16px;
-      color: $color5;
+      color: $color3;
       display: block;
       padding-top: 5px;
     }
@@ -63,7 +65,7 @@ code {
     margin-bottom: 5px;
     font-family: inherit;
     font-size: 14px;
-    color: white;
+    color: #222222;
     display: block;
     width: auto;
   }
@@ -74,7 +76,7 @@ code {
     label {
       font-family: inherit;
       font-size: 14px;
-      color: white;
+      color: #222222;
       display: block;
       width: auto;
     }
@@ -102,11 +104,11 @@ code {
     background: transparent;
     box-sizing: border-box;
     border: 0;
-    border-bottom: 2px solid $color3;
+    border-bottom: 1px solid $color10;
     border-radius: 2px 2px 0 0;
     padding: 7px 4px;
     font-size: 16px;
-    color: $color5;
+    color: $color3;
     display: block;
     width: 100%;
     outline: 0;
@@ -199,12 +201,11 @@ code {
 }
 
 .flash-message {
-  background: $color1;
-  color: $color3;
+  background: $color4;
+  color: $color5;
   border-radius: 4px;
   padding: 15px 10px;
   margin-bottom: 30px;
-  box-shadow: 0 0 5px rgba($color8, 0.2);
   text-align: center;
 
   strong {
@@ -217,7 +218,7 @@ code {
   text-align: center;
 
   a {
-    color: $color5;
+    /*color: $color5;*/
     text-decoration: none;
 
     &:hover {
@@ -283,10 +284,8 @@ code {
   .warning {
     max-width: 400px;
     box-sizing: border-box;
-    background: rgba($color6, 0.5);
+    background: $color6;
     color: $color5;
-    text-shadow: 1px 1px 0 rgba($color8, 0.3);
-    box-shadow: 0 2px 6px rgba($color8, 0.4);
     border-radius: 4px;
     padding: 10px;
     margin-bottom: 15px;
