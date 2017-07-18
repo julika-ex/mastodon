@@ -1,5 +1,5 @@
 .card {
-  background: $color1;
+  background: $color5;
   background-size: cover;
   padding: 60px 0;
   padding-bottom: 0;
@@ -14,7 +14,7 @@
   }
 
   &:after {
-    background: linear-gradient(rgba($color8, 0.5), rgba($color8, 0.8));
+    background: $color5;
     display: block;
     content: "";
     position: absolute;
@@ -29,12 +29,11 @@
     display: block;
     font-size: 20px;
     line-height: 18px * 1.5;
-    color: $color5;
+    color: $color3;
     font-weight: 500;
     text-align: center;
     position: relative;
     z-index: 2;
-    text-shadow: 0 0 2px $color8;
 
     small {
       display: block;
@@ -129,13 +128,12 @@
       text-transform: uppercase;
       display: block;
       margin-bottom: 5px;
-      text-shadow: 0 0 2px $color8;
     }
 
     .counter-number {
       font-weight: 500;
       font-size: 18px;
-      color: $color5;
+      color: $color1;
     }
   }
 

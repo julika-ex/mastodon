@@ -59,31 +59,31 @@ table {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: lighten($color1, 4%);
+  background: $color10;
   border: 0px none $color5;
   border-radius: 50px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: lighten($color1, 6%);
+  background: $color10;
 }
 
 ::-webkit-scrollbar-thumb:active {
-  background: lighten($color1, 4%);
+  background: $color10;
 }
 
 ::-webkit-scrollbar-track {
-  border: 0px none $color5;
+  border: 0px none $color1;
   border-radius: 0;
-  background: rgba($color8, 0.1);
+  background: $color2;
 }
 
 ::-webkit-scrollbar-track:hover {
-  background: $color1;
+  background: $color2;
 }
 
 ::-webkit-scrollbar-track:active {
-  background: $color1;
+  background: $color2;
 }
 
 ::-webkit-scrollbar-corner {

@@ -2,10 +2,24 @@
 
 <%= @instance %>にアカウントが作成されました。
 
-以下のリンクをクリックしてMastodonアカウントのメールアドレスを確認してください。
+まずはエキサイト・サービスの利用規約をご確認ください。
 
+・エキサイト・サービスの利用規約
+https://info.excite.co.jp/top/agreement.html
+
+ご確認いただき、同意いただけましたら、
+以下のリンクをクリックしてjulika.jpアカウントのメールアドレスをご確認するとご利用いただけます。
+
+・メールアドレスを確認する
 <%= confirmation_url(@resource, confirmation_token: @token) %>
 
-また、インスタンスの<%= link_to '利用規約', terms_url %>についてもご確認ください。
 
-<%= @instance %> チーム
+※このメールは送信専用となっております。
+ご不明な点がございましたら、以下URLよりご連絡ください。
+https://support.excite.co.jp/app/answers/list/c/1196
+
+
+エキサイト株式会社 julika.jp チーム
+https://julika.jp/
+
+----Copyright(C) Excite Japan Co.,Ltd. All rights reserved----
