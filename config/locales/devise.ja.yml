@@ -17,13 +17,13 @@ ja:
       unconfirmed: 続行するにはメールアドレスを確認する必要があります。
     mailer:
       confirmation_instructions:
-        subject: 'Mastodon: メールアドレスの確認'
+        subject: 'julika: メールアドレスの確認'
       password_change:
-        subject: 'Mastodon: パスワードが変更されました'
+        subject: 'julika: パスワードが変更されました'
       reset_password_instructions:
-        subject: 'Mastodon: パスワード再発行'
+        subject: 'julika: パスワード再発行'
       unlock_instructions:
-        subject: 'Mastodon: アカウントのロックの解除'
+        subject: 'julika: アカウントのロックの解除'
     omniauth_callbacks:
       failure: '%{reason}によって%{kind}からのアクセスを認証できませんでした。'
       success: '%{kind}からのアクセスは正常に認証されました。'
